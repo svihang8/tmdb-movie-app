@@ -1,0 +1,56 @@
+/* Movies */
+.movie-card {
+  width: 20vw;
+  margin-top: 1vh;
+  margin-bottom: 3vh;
+  margin-left: 1rem;
+  height: 40vh;
+  position: relative;
+  color: white;
+  font-size: 2rem;
+}
+
+.movie-title {
+  position: absolute;
+  font-size: 2rem;
+  top: 0vh;
+}
+
+.movie-img {
+  height: 100%;
+}
+
+.movie-button {
+  position: absolute;
+  bottom: 2rem;
+}
+
+
+
+@media only screen and (max-width: 375px) {
+  .banner-card {
+    height: 35vh; 
+  }
+
+  .banner-img {
+    height: 35vh;
+  }
+
+  .banner-title {
+    top: 20vh;
+    left: 5vw;
+  }
+
+  .banner-text {
+    display: none;
+  }
+
+  .movie-card{
+    width: 100vh;
+    margin-left: 0rem;
+  }
+
+  .movie-title {
+    font-size: 1.5rem;
+  }
+}
